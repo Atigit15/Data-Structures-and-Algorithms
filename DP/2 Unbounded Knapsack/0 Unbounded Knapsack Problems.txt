@@ -1,0 +1,15 @@
+1.Rod Cutting Problem
+2.Coin Change I - total no. of ways
+3.Coin Change II - min no. of coins
+
+1. Given length of rod and prices for certain length we have to cut the rod in such a way such that profit is maximised.
+i/p -> length[] prices[] and N (length of rod)
+o/p->int (max Profit)
+
+2.Given denominations of coins and a sum, find the total no. of ways that sum can be formed.
+i/p->coins[] and sum
+o/p->int
+
+3.Given denominations of coins and a sum, find th emin no. of coins needed to make that sum.
+i/p->coins[] and sum
+o/p->int

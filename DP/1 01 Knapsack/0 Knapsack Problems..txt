@@ -1,0 +1,31 @@
+1.Subset Sum
+2.Equal Sum Partition
+3.Count Subset Sum
+4.Minimum Subset Difference
+5.Count Subset (given) Difference
+6.Target Sum (very similar to 5)
+
+1.Find whether there is a subset of arr such that its sum equals given sum.
+i/p -> arr[ ] and sum
+o/p->bool
+
+2.Find whether we can divide the given arr in 2 eql parts
+i/p-> arr[ ]
+o/p -> bool
+
+3.Count the no. of subsets with given sum.
+i/p -> arr[ ] and sum
+o/p->int
+
+4.Find min diff between subsets of arr
+i/p -> arr[ ]
+o/p->int
+
+5.Count the no. of pairs of subsets with given diff
+i/p -> arr[ ] and diff
+o/p->int
+
+6.No. of ways we can assign + or - such that sum==given sum
+i/p -> arr[ ] and sum
+o/p->int
+

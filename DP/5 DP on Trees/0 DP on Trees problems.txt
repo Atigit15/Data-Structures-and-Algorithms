@@ -1,0 +1,4 @@
+1. Diameter of Binary tree.
+2.max path sum from any node to any
+3.max from leaf to leaf
+4.Diameter of n-ary tree.

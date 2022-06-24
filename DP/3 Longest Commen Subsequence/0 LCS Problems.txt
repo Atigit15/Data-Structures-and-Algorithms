@@ -1,0 +1,72 @@
+0. Longest Common Subsequence(LCS)
+1.Longest Common Substring
+2.Print LCS
+3.Shortest Common Supersequence(SCS)
+4.Mininum Insertion And Deletion to convert from a to b
+5.Longest Palindromic Subsequence
+6.Min no. of deletion to make string palindrome
+7.Print SCS
+8.Longest repeating Subsequence
+9.Sequence Pattern matching (print yes if s1 is a subsequence of s2)
+10.Min Insertion to make a string palindrome - exactly same as 6.
+
+Subsequence -> can be discontinous
+Substring -> cannot be
+Supersequence(a,b) -> a string such that both a and b is a subsequence of it.
+naiive SuperSequence-> a+b
+
+0.Given 2 strings , find the length of longest common subseq.
+i/p->	abcdgh          
+	abedfgr   
+o/p ->  	4 (len of abdg)     
+
+1.Given 2 strings , find the length of longest common substring
+i/p->	abcde    
+	abfce   
+o/p ->  	2 (len of ab) 
+
+2.Given 2 strings , find the longest common subseq.
+i/p->	abcdgh          
+	abedfgr   
+o/p ->  	abdg
+
+3.Given 2 strings, find the length of shortest superseq.
+i/p->	geek
+	eke
+o/p-> 	5 (len of geeke)
+
+4.Given 2 strings, find the min no. of insertion and deletion to convert a to b
+i/p->	heap (a)
+	pea (b)
+o/p-> 	int,int (1,2) 1 insertion and 2 deletion
+
+5.Given a string, find the len of the longest palindromic subseq in it.
+i/p->	agbcba
+o/p->	5 (len of abcba).
+
+6.Given a string, find the min. no of deletion to make it palindrome
+i/p->	agbcba
+o/p->	1 (del g)
+
+7.Given 2 strings, print their shortest superseq.
+i/p->	acbcf
+	abcdaf
+o/p->	acbcdaf
+
+8.Given a string, find the len of longest repeating subseq.
+i/p->	AABEBCDD
+o/p->	3 (len of ABD)
+
+9, Given 2 strings, o/p true if a is subseq of b.
+i/p->	AXY
+	ADXCPY
+o/p->	True
+
+10.Given a string , find the min of insertion to make it a palindrome.
+i/p-> 	aebbcbda
+o/p->	2 (insert d and e)
+
+
+                       
+
+

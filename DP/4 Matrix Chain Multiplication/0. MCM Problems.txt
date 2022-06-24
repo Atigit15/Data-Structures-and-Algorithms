@@ -1,0 +1,29 @@
+// In MCM an array or a string is given 
+
+1. MCM - Put brackets to min cost
+2.Palindrome Partitioning
+3. Evaluate exprsn to true/ Boolean Parenthesis
+4. Scrambled String
+5. Egg Dropping problem
+
+Two matrices A (a x b) and B (b x c) cost of multiplication = axbxc.
+1.Given an array of n elements representing dimensions of n-1 matrices find  a way to put brackets such that cost is minimised retrun the cost.
+i/p->	10 30  5 60
+o/p->	4500 ([AXB]XC)
+
+2.Given a string find the min no. of partitions that will make each part of s a palindrome
+i/p->	nitik
+o/p->	2
+
+3.Given a string having T,F,|,& and /or ^. find the no. of ways we can put brackets such that it evaluates to true.
+i/p->	T^F&T
+o/p->	2 
+
+4.Given 2 strings find whether they are scrambled string of each other
+i/p ->	great
+	rgeat
+o/p-> 	true (bool)
+
+5. Given no. of floors and eggs, find the min no of attempts it would take to find the critikal floor(topmost floor from which egg doesnt break) in the worst case.
+i/p->	e=3	f=5
+o/p-> 	3
