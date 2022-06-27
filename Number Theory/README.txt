@@ -11,7 +11,11 @@ This directory contains all templates realted to number theory.
 
 Some Topics worth reading about:-
 1)Catalan Numbers
-2)Dearrangements of a set
-3)Goldback and Lemoine's Conjecture
-4)Burnside Lemma
+2)Fibonacci Numbers
+3)Dearrangements of a set
+4)Goldback and Lemoine's Conjecture
+5)Linear Diophantine Equations
+6)Burnside Lemma
+7)Inclusion Exclusion Principle
+8)Cayley's Formulae/Prüfer code
 
