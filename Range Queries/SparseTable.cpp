@@ -8,6 +8,7 @@ using namespace std;
 //Space - O(nlogn)
 //Can be used only on Static Arrays
 //Idempotent/Overlap Friendly functions - min,max,gcd,and,or
+//Credits to : MilindSharma
 
 class SparseTable{
     private:
