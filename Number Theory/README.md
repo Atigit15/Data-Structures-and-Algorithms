@@ -17,7 +17,7 @@
 
 9) Prime factorisation of number in sqrt(n).
 
-## Some Topics worth reading about:-
+## Some topics worth learning :
 1) Catalan Numbers
 
 2) Fibonacci Numbers
