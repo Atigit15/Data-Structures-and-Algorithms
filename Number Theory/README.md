@@ -1,4 +1,4 @@
-## This directory contains all templates realted to number theory.
+## This directory contains all important templates related to number theory.
 1) Binary Exponentiation (with and without mod)
 
 2) Euclidean GCD
