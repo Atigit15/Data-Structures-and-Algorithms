@@ -11,8 +11,9 @@ This repository provides all the topics under DSA you need to know for an SDE In
 7. [Heaps](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#heaps)
 8. [Stacks and Queues](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#stack-and-queues)
 9. [Strings](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#strings)
-10. [Binary Tree and BST](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#binary-tree-and-bst)
-11. [Trees](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#trees)
+10. [STL]
+11. [Binary Tree and BST](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#binary-tree-and-bst)
+12. [Trees](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#trees)
 13. [Graphs](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#graph)
 14. [Dynamic Programming](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#dp)
 15. [Tries](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#tries)
@@ -50,6 +51,14 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - Minimum number of platforms required
 - Fractional Knapsack
 
+# Recursion
+
+# BackTracking
+
+# Binary Search
+
+# Heaps
+
 # Stack and Queues
 - Next/Previous Greater/Smaller Element in O(N)
 - Doubly Ended Queue - Deque
@@ -64,6 +73,10 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - Manacher Algorithm
 ### Resources
 - [CP-Algorthms](https://cp-algorithms.com/string/string-hashing.html)
+
+# STL (C++)
+
+
 
 # Binary Tree and BST
 - AVL Trees
