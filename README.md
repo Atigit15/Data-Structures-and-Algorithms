@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+
 This repository provides all the topics under DSA you need to know for an SDE Interview or competitive programming.
 
 # Topics
