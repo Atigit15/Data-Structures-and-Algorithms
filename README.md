@@ -90,9 +90,11 @@ This repository provides all the topics under DSA you need to know for an SDE In
 # Trees
 - DFS/BFS Traversal
 - DP on Trees
-- Height and Diameter
-- Binary Lifting
-- Euler Tour (and Range Queries)
+- Height/Level and Diameter
+- [Binary Lifting](https://codeforces.com/blog/entry/100826)
+   - Finding kth parent of a node
+   - Path aggregates
+- Euler Tour (and Range Queries) or Flattening the tree
 - [LCA of two nodes](https://www.topcoder.com/thrive/articles/Range%20Minimum%20Query%20and%20Lowest%20Common%20Ancestor)
   - Using SQRT decomposition <O(N), O(SQRT(N))>*
   - Using Binary Lifting <O(N LOGN, O(LOGN)>
@@ -100,6 +102,7 @@ This repository provides all the topics under DSA you need to know for an SDE In
     - (Sparse Table) <O(N + NLOGN), O(1)> [Better Choice]
     - (Segment Tree) <O(N), O(LOGN)>
 - Heavy Light Decomposition
+- Centroid Decomposition
 - Note: *<O(N), O(SQRT(N))> means O(N) precomputation and O(SQRTN) query processing
 
 # Graph
