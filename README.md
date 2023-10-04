@@ -11,7 +11,7 @@ This repository provides all the topics under DSA you need to know for an SDE In
 7. [Heaps](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#heaps)
 8. [Stacks and Queues](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#stack-and-queues)
 9. [Strings](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#strings)
-10. [STL]
+10. [STL]()
 11. [Binary Tree and BST](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#binary-tree-and-bst)
 12. [Trees](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#trees)
 13. [Graphs](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#graph)
@@ -24,16 +24,18 @@ This repository provides all the topics under DSA you need to know for an SDE In
 20. [Additional Topics](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#additional-topics)
 
 # Array
-- Sorting Based
+- [Sorting Algorithms](https://github.com/Atigit15/Sorting_Algorithms)
 - Prefix/Suffix Sum
 - Two Pointers
-- Sliding Window
+- [Sliding Window](https://leetcode.com/discuss/general-discussion/1122776/summary-of-sliding-window-patterns-for-subarray-substring)
 - Count Inversions
   - Using Merge Sort
   - Using Fenwick Tree
   - Using [Ordered Set](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)
 - Kadane's Algorithm
-- Subset Generation
+- Dutch National Flag
+- [Boyre Moore Voting Algorithms](https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/)
+- All Subsets Generation
     - Using Recursion
     - Using Bitmasks
 - Permutation
