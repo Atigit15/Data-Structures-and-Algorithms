@@ -164,20 +164,29 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - [Striver Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp)
 
 # Bit Manipulation
-- Representation and operations
+- Representation and operations (AND OR XOR NOT)
 - Set or check a bit position, toggle, get last bit, etc
 - Generating all subsets
-- Builtin C++ functions
+- Builtin C++ functions (__builtin_popcount(), etc.)
 - Properties of XOR
 - Optimisation techniques using bitmasking
 
 # Range Queries
 - Prefix/Suffix Sum Array
-- Difference Array
+- Difference Array (Range Updates Point Query)
 - Sparse Table
-- Fenwick Tree / Binary Indexed Tree (Point Update Range Query)
+  - <O(NLOGN), O(1)> Time Complexity
+  - O(NLOGN) Space Complexity
+  - Use for idempotent/overlap friendly function - MIN, MAX, GCD, AND, OR
+- [Fenwick Tree / Binary Indexed Tree](https://cp-algorithms.com/data_structures/fenwick.html)
+  - Ordinary BIT (Point Update and Range Query)
+  - Reverse BIT (Range Update and Point Query)
+  - 2 BITs (Range Updates and Range Queries)
 - Segment Tree (Point Update Range Query)
+  - Fenwick tree supports SUM query but Seg tree can support any associative o/p - MIN, MAX, GCD, AND, OR, XOR.
+  - It takes more memory
 - Lazy Segment Tree (Range Update Range Query)
+- Index/ Coordinate compression
 
 # Number Theory
 - Binary Exponentiation (with and without the mod)
