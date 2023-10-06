@@ -2,26 +2,26 @@
 This repository provides all the topics under DSA you need to know for an SDE Interview or competitive programming.
 
 # Topics
-1. [Array](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#array)
-2. [LinkedList](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#linkedlist)
-3. [Greedy Algorithms](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#greedy)
-4. [Recursion](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#topics)
-5. [Backtracking](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#topics)
-6. [Binary Search](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#topics)
-7. [Heaps](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#heaps)
-8. [Stacks and Queues](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#stack-and-queues)
-9. [Strings](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#strings)
+1. [Array](https://atigit15.github.io/Data-Structures-and-Algorithms/#array)
+2. [LinkedList](https://atigit15.github.io/Data-Structures-and-Algorithms/#linkedlist)
+3. [Greedy Algorithms](https://atigit15.github.io/Data-Structures-and-Algorithms/#greedy)
+4. [Recursion](https://atigit15.github.io/Data-Structures-and-Algorithms/#topics)
+5. [Backtracking](https://atigit15.github.io/Data-Structures-and-Algorithms/#topics)
+6. [Binary Search](https://atigit15.github.io/Data-Structures-and-Algorithms/#topics)
+7. [Heaps](https://atigit15.github.io/Data-Structures-and-Algorithms/#heaps)
+8. [Stacks and Queues](https://atigit15.github.io/Data-Structures-and-Algorithms/#stack-and-queues)
+9. [Strings](https://atigit15.github.io/Data-Structures-and-Algorithms/#strings)
 10. [STL]()
-11. [Binary Tree and BST](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#binary-tree-and-bst)
-12. [Trees](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#trees)
-13. [Graphs](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#graph)
-14. [Dynamic Programming](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#dp)
-15. [Tries](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#tries)
-16. [Bit Manipulation](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#bit-manipulation)
-17. [Range Queries](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#range-queries)
-18. [Number Theory](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#number-theory)
-19. [Geometry](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#geometry)
-20. [Additional Topics](https://github.com/Atigit15/Interview-Prep/tree/main/DSA#additional-topics)
+11. [Binary Tree and BST](https://atigit15.github.io/Data-Structures-and-Algorithms/#binary-tree-and-bst)
+12. [Trees](https://atigit15.github.io/Data-Structures-and-Algorithms/#trees)
+13. [Graphs](https://atigit15.github.io/Data-Structures-and-Algorithms/#graph)
+14. [Dynamic Programming](https://atigit15.github.io/Data-Structures-and-Algorithms/#dp)
+15. [Tries](https://atigit15.github.io/Data-Structures-and-Algorithms/#tries)
+16. [Bit Manipulation](https://atigit15.github.io/Data-Structures-and-Algorithms/#bit-manipulation)
+17. [Range Queries](https://atigit15.github.io/Data-Structures-and-Algorithms/#range-queries)
+18. [Number Theory](https://atigit15.github.io/Data-Structures-and-Algorithms/#number-theory)
+19. [Geometry](https://atigit15.github.io/Data-Structures-and-Algorithms/#geometry)
+20. [Additional Topics](https://atigit15.github.io/Data-Structures-and-Algorithms/#additional-topics)
 
 # Array
 - [Sorting Algorithms](https://github.com/Atigit15/Sorting_Algorithms)
@@ -189,15 +189,42 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - Index/ Coordinate compression
 
 # Number Theory
-- Binary Exponentiation (with and without the mod)
-- Euclidean GCD
-- Prime factorization of number in sqrt(n)
-- Euler Totient Function
+- Primality Test
+- Sieve of Eratosthenes <O(N*LOG(LOGN)), O(1)>
+  - Segmented Sieve - Finding primes in a range
+  - Linear Sieve - Finding primes less than 1e7 in O(N)
+  - Can be used to compute the smallest prime factor of all numbers b/w [1, 1e6]
+- Prime factorization
+  - Trial Division O(SQRTN)
+  - Using sieve <O(N*LOG(LOGN)), O(LOGN)>
+- Binary Exponentiation 
+- Euclidean GCD <O(LOG(MIN(a,b)))>
+  - Properties of GCD
 - Extended Euclidean Algorithm
-- Modular Operation including ' modular inverse '.
-- Sieve of Eratosthenes
-- Modification of Sieve - storing the smallest prime factor for all numbers in a given range.
+  - Solving Linear Diophantine Equations.
+  - Finding the modular inverse of a number
+- Modular Arithmetic
+  - Congruence
+  - Addition, Multiplication, Subtraction
+  - Calculation of Modulo Inverse `𝑎^−1 mod m`
+    - Only exists when `gcd(a, m) = 1` 
+    - Fermat's Little Theorem and Binary Exponentiation (only when `m` is prime)
+    - Euler theorem and Extended Euclidean Theorem
 - Binomial Coefficient (both with and without the mod)
+- Euler Totient Function
+  - Using Factorisation O(SQRTN)
+  - Using Sieve O(NLOG(LOG(N)))
+- Misc
+   - Number of Divisors/Sum of Divisors formulae
+   - Chicken McNugget Theorem
+   - [Legendre's formula](https://en.wikipedia.org/wiki/Legendre%27s_formula)
+   - Catalan Numbers
+   - Dearrangments
+   - Josephus Problem
+   - Burnside Lemma
+   - [Star and Bar Theorem](https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics))
+### Resources
+  - [PPT](https://drive.google.com/file/d/1JDppLNkemgZsk23AQjBzbMD7HL68g7BS/view?usp=sharing)
 
 # Geometry
 - Sweep Line Algorithms
