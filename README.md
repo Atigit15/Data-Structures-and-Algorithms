@@ -102,8 +102,17 @@ This repository provides all the topics under DSA you need to know for an SDE In
     - (Sparse Table) <O(N + NLOGN), O(1)> [Better Choice]
     - (Segment Tree) <O(N), O(LOGN)>
 - Heavy Light Decomposition
-- Centroid Decomposition
+- Centroid Decomposition**
 - Note: *<O(N), O(SQRT(N))> means O(N) precomputation and O(SQRTN) query processing
+  
+ -| Query | Query and Update |
+ --|-------|------------------|
+Subtree Queries |   Precompute    |   Euler Tour |
+Path Queries | Binary Lifting | HLD|
+
+### Resources
+- [Pepcoding - Euler Tour](https://www.youtube.com/playlist?list=PL-Jc9J83PIiHymm1DHZBkac0_hhFBXryO)
+- [CSES Problem Set](https://cses.fi/problemset)
 
 # Graph
 - Representation
