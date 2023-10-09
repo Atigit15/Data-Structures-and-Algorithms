@@ -11,7 +11,7 @@ This repository provides all the topics under DSA you need to know for an SDE In
 7. [Heaps](https://atigit15.github.io/Data-Structures-and-Algorithms/#heaps)
 8. [Stacks and Queues](https://atigit15.github.io/Data-Structures-and-Algorithms/#stack-and-queues)
 9. [Strings](https://atigit15.github.io/Data-Structures-and-Algorithms/#strings)
-10. [STL]()
+10. [STL](https://atigit15.github.io/Data-Structures-and-Algorithms/#stl)
 11. [Binary Tree and BST](https://atigit15.github.io/Data-Structures-and-Algorithms/#binary-tree-and-bst)
 12. [Trees](https://atigit15.github.io/Data-Structures-and-Algorithms/#trees)
 13. [Graphs](https://atigit15.github.io/Data-Structures-and-Algorithms/#graph)
@@ -65,7 +65,12 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - Next/Previous Greater/Smaller Element in O(N)
 - Doubly Ended Queue - Deque
 - Circular Queue
-- Real-life use cases
+- Sort Stack using Stack
+- Implement Queue using Stacks
+- Implement Stack using Queues
+- Valid Parentheses Expression
+- Min Stack Problem (Get min of the stack in O(1))
+- Real-life use cases and applications
 
 # Strings
 - String Hashing
@@ -77,8 +82,12 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - [CP-Algorthms](https://cp-algorithms.com/string/string-hashing.html)
 
 # STL (C++)
-
-
+- Unordered set, set and implementation
+- Unordered map, map and implementation
+- Lower bound and Upper bound
+- Sorting with custom comparator
+- Min Heap and Max Heap (priority_queue<>)
+- 
 
 # Binary Tree and BST
 - AVL Trees
