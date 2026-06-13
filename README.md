@@ -44,7 +44,8 @@ This repository provides all the topics under DSA you need to know for an SDE In
 # LinkedList
 - Reversing a LL
 - Slow and fast pointer technique
-- Doubly and circular LL
+- Double LL
+- Circular LL
 ### Resources
 - [Leetcode Problems](https://leetcode.com/tag/linked-list/)
 
@@ -54,12 +55,23 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - Fractional Knapsack
 
 # Recursion
-
-# BackTracking
+- Combination Sum
+- Subsets
+- Power Set
 
 # Binary Search
+- Simple BS
+- Lower/Upper Bounds
+- Find Peak element
+- Search in Rotated Array
+- BS on Answer
+- BS on 2D array
 
 # Heaps
+- Merge K sorted lists
+- Priority queue implementation
+- Theory wise
+- Design Twitter
 
 # Stack and Queues
 - Next/Previous Greater/Smaller Element in O(N)
@@ -87,7 +99,6 @@ This repository provides all the topics under DSA you need to know for an SDE In
 - Lower bound and Upper bound
 - Sorting with custom comparator
 - Min Heap and Max Heap (priority_queue<>)
-- 
 
 # Binary Tree and BST
 - AVL Trees
